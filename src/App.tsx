@@ -7,7 +7,7 @@ import HomePage from "./app/pages/HomePage";
 
 function App() {
   return (
-    <BrowserRouter basename="/e-commerce-app">
+    <BrowserRouter basename="/house-of-gulmohar">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
